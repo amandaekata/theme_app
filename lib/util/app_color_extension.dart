@@ -23,5 +23,5 @@ class AppColorExtension extends ThemeExtension<AppColorExtension> {
     return AppColorExtension(
         background: Color.lerp(background, other.background, t)!,
         primary: Color.lerp(primary, other.primary, t)!);
-  }
+  } 
 }
